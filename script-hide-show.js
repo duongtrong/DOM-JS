@@ -25,8 +25,8 @@ hiddennam.onclick = function () {
 	var hiddennam = document.getElementsByClassName("nam");
 	var hiddennu = document.getElementsByClassName("nu");
 	for (var i = 0; i < hiddennam.length; i++) {
-		hiddennam[i].style.display = "none";
-		hiddennu[i].style.display = "block";
+		hiddennam[i].style.display = "block";
+		hiddennu[i].style.display = "none";
 	}
 }
 
@@ -36,8 +36,8 @@ hiddennu.onclick = function () {
 	var hiddennu = document.getElementsByClassName("nu");
 	var hiddennam = document.getElementsByClassName("nam");
 	for (var i = 0; i < hiddennu.length; i++) {
-		hiddennu[i].style.display = "none";
-		hiddennam[i].style.display = "block";
+		hiddennu[i].style.display = "block";
+		hiddennam[i].style.display = "none";
 	}
 }
 
