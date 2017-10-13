@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hide show demo</title>
+  <style type="text/css">
+    table, tr, td {
+    padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <table>
+      <tr>
+        <td>Tên</td>
+        <td><input type="text" name="username"></td>
+      </tr>
+      <tr>
+        <td>Ngày sinh</td>
+        <td><input type="date" name="birthday"></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td><input type="text" name="email"></td>
+      </tr>
+      <tr>
+        <td><label>Giới tính</label></td>
+        <td>
+          <input type="radio" name="gender" id="male"> Nam
+          <input type="radio" name="gender" id="female"> Nữ
+        </td>
+      </tr>
+      <tr>
+        <td><label>Màu sắc yêu thích</label></td>
+        <td>
+          <label class="nam"><input type="checkbox" name="color" value="color"> Đen</label>
+          <label class="nam"><input type="checkbox" name="color" value="color"> Xanh</label>
+          <label class="nam"><input type="checkbox" name="color" value="color"> Vàng</label>
+          <label class="nu"><input type="checkbox" name="color" value="color"> Hồng</label>
+          <label class="nu"><input type="checkbox" name="color" value="color"> Trắng</label>
+          <label class="nu"><input type="checkbox" name="color" value="color"> Tím</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Hoạt động yêu thích yêu thích</label></td>
+        <td>
+          <label class="nam"><input type="checkbox" name="ativity" value="ativity"> Boxing</label>
+          <label class="nam"><input type="checkbox" name="ativity" value="ativity"> Đá bóng</label>
+          <label class="nam"><input type="checkbox" name="ativity" value="ativity"> Game</label>
+          <label class="nu"><input type="checkbox" name="ativity" value="ativity"> Đồ hàng</label>
+          <label class="nu"><input type="checkbox" name="ativity" value="ativity"> Cắm hoa</label>
+          <label class="nu"><input type="checkbox" name="ativity" value="ativity"> Nội trợ</label>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <input type="button" name="submit" value="Lưu">
+          <input type="reset" name="reset" value="Làm lại">
+        </td>
+      </tr>
+    </table>
+   </form>
+   <script type="text/javascript" src="script-hide-show.js"></script>
+</body>
+</html>
